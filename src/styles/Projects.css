@@ -6,6 +6,12 @@
   align-items: center;
   flex-direction: column;
 }
+
+.projects h1 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
@@ -26,11 +32,17 @@
 
 .projectItem {
   border-radius: 15px;
-  width: 300px;
+  width: 350px;
   height: 300px;
-  margin: 40px;
+  margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+  display: flex;
+  align-content: stretch;
+  align-items: center;
+  justify-content: first baseline;
+  flex-direction: column;
+  padding: 0;
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -39,9 +51,9 @@
 }
 
 .projectItem .bgImage {
-  border-top-left-radius: 15px;
+  border: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
+  width: 95%;
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +61,10 @@
 }
 
 .projectItem h1 {
-  font-size: 25px;
+  font-size: 18px;
+  margin-top: 0;
+  margin: 20px auto 20px auto;
+  padding: 0;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -61,15 +76,26 @@
 @media only screen and (max-width: 800px) {
   .projectList {
     grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .projectList {
     width: 100%;
   }
+    
   .projectItem {
     width: 300px;
     height: 300px;
+    margin: 5px;
+  }
+
+  .projects h1 {
+    margin: 10px auto 20px auto;
+    font-size: 25px;
+  }
+
+  .projectItem h1 {
+    font-size: 18px;
+    margin-top: 0;
+    margin: 20px auto 20px auto;
+    padding: 0;
+    justify-content: baseline;
   }
 }
+
