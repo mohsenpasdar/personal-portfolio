@@ -2,6 +2,8 @@
     width: 100%;
     height: 100px;
     background: #21325e;
+    position: fixed;
+    z-index: 9999;
 }
 
 .links {
@@ -56,6 +58,9 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .navbar {
+        position: static;
+    }
     .navbar a {
         width: 70px;
     }
