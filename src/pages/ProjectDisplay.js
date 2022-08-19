@@ -12,7 +12,8 @@ const ProjectDisplay = () => {
             <h1>{project.name}</h1>
             <img src={project.image} />
             <p><b>Skills</b>: {project.skills}</p>
-            <a href='to be created' target={'_blank'}><GithubIcon /></a>
+            <a href={project.github} target={'_blank'}><GithubIcon /></a>
+            <a href={project.url} target={'_blank'}>view demo</a>
         </div>
     );
 };

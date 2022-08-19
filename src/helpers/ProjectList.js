@@ -7,9 +7,11 @@ import Proj6 from "../assets/proj6.png";
 
 export const projectList = [
     {
-        name: "Dijkstra Algorithm Visualizer",
+        name: "Weather forecast",
         image: Proj1,
-        skills: "JavaScript, HTML, CSS",
+        skills: "JavaScript, HTML, CSS, React, ",
+        url: 'https://mohsen-react-weather-app.netlify.app/',
+        github: 'https://github.com/mohsenpasdar/react-weather-app'
     },
     {
         name: "Ecommerce Website",
