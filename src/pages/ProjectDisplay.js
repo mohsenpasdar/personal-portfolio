@@ -10,10 +10,9 @@ const ProjectDisplay = () => {
     return (
         <div className='project'>
             <h1>{project.name}</h1>
-            <img src={project.image} />
+            <a href={project.url} target={'_blank'}><img src={project.image} /></a>
             <p><b>Skills</b>: {project.skills}</p>
             <a href={project.github} target={'_blank'}><GithubIcon /></a>
-            <a href={project.url} target={'_blank'}>view demo</a>
         </div>
     );
 };

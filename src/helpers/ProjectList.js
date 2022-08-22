@@ -1,9 +1,8 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
+import Proj3 from "../assets/proj3.jpg";
+import Proj4 from "../assets/proj4.jpg";
 import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
 
 export const projectList = [
     {
@@ -14,28 +13,31 @@ export const projectList = [
         github: 'https://github.com/mohsenpasdar/react-weather-app'
     },
     {
-        name: "Ecommerce Website",
+        name: "Tic-Tac-Toe game",
         image: Proj2,
-        skills: "React, Node.js, MongoDB",
+        skills: "JavaScript, HTML, CSS, React",
+        url: 'https://mohsen-react-tic-tac-toe.netlify.app/',
+        github: 'https://github.com/mohsenpasdar/tic-tac-toe'
     },
     {
-        name: "Spotify Clone",
+        name: "Hangman game",
         image: Proj3,
-        skills: "React, Node.js, MongoDB, SpotifyAPI",
+        skills: "JavaScript, HTML, CSS, React",
+        url: 'https://mohsen-hangman.netlify.app',
+        github: 'https://github.com/mohsenpasdar/hangman-game'
     },
     {
-        name: "Social Media Website",
+        name: "To-do app",
         image: Proj4,
-        skills: "React, Node.js, MySQL, GraphQL",
+        skills: "JavaScript, HTML, CSS",
+        url: 'https://mohsen-todo-app.netlify.app/',
+        github: 'https://github.com/mohsenpasdar/todo-app'
     },
     {
-        name: "Dashboard Visualizer",
+        name: "Notes app",
         image: Proj5,
         skills: "JavaScript, HTML, CSS",
-    },
-    {
-        name: "Mobile Game",
-        image: Proj6,
-        skills: "React Native, JavaScript, HTML, CSS",
+        url: 'https://mohsen-notes-app.netlify.app/index.html',
+        github: 'https://github.com/mohsenpasdar/notes-app'
     },
 ];
