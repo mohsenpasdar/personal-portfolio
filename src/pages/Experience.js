@@ -103,7 +103,7 @@ const Experience = () => {
                         Tehran, Iran
                     </h4>
                     <p>
-                        Learning, and doing some web development projects as a freelancer 
+                        Freelance web developer 
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>

@@ -3,6 +3,7 @@ import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.jpg";
 import Proj4 from "../assets/proj4.jpg";
 import Proj5 from "../assets/proj5.jpg";
+import Proj6 from "../assets/proj6.jpg";
 
 export const projectList = [
     {
@@ -11,6 +12,13 @@ export const projectList = [
         skills: "JavaScript, HTML, CSS, React, ",
         url: 'https://mohsen-react-weather-app.netlify.app/',
         github: 'https://github.com/mohsenpasdar/react-weather-app'
+    },
+    {
+        name: "Wordle game",
+        image: Proj6,
+        skills: "JavaScript, HTML, CSS, React",
+        url: 'https://mohsen-wordle-from-scratch.netlify.app/',
+        github: 'https://github.com/mohsenpasdar/wordle-from-scratch'
     },
     {
         name: "Tic-Tac-Toe game",
