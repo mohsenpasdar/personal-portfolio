@@ -14,7 +14,6 @@ const Home = () => {
                     <a href='https://www.linkedin.com/in/mohsenpasdar/' target={'_blank'}><LinkedInIcon /></a>
                     <a href='mailto:mohsenpasdar@gmail.com'><EmailIcon /></a>
                     <a href='https://github.com/mohsenpasdar' target={'_blank'}><GithubIcon /></a>
-                    
                 </div>
             </div>
             <div className='skills'>
@@ -23,13 +22,19 @@ const Home = () => {
                     <li className='item'>
                         <h2>Front-End</h2>
                         <span>
-                            ReactJS, Redux, HTML, CSS, NPM, Yarn
+                            ReactJS, Redux, HTML, CSS
+                        </span>
+                    </li>
+                    <li className='item'>
+                        <h2>Back-End</h2>
+                        <span>
+                            NodeJS
                         </span>
                     </li>
                     <li className='item'>
                         <h2>Languages</h2>
                         <span>
-                            JavaScript, Python
+                            JavaScript
                         </span>
                     </li>
                 </ol>
