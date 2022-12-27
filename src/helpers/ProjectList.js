@@ -5,8 +5,16 @@ import Proj4 from "../assets/proj4.jpg";
 import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.jpg";
 import Proj7 from "../assets/proj7.JPG";
+import Proj8 from "../assets/proj8.JPG";
 
 export const projectList = [
+    {
+        name: "NodeJS chat app",
+        image: Proj8,
+        skills: "NodeJS, Express, socketIO, JavaScript, HTML, CSS",
+        url: 'https://mohsen-nodejs-chat-app.onrender.com/',
+        github: 'https://github.com/mohsenpasdar/chat-app'
+    },
     {
         name: "NodeJS weather app",
         image: Proj7,
