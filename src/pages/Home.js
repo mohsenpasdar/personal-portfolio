@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div className='about'>
-                <h2>Hi, my name is Mohsen</h2>
+                <h2>Hi, my name is Mohsen!</h2>
                 <div className='prompt'>
                     <p>A software developer with a passion for learning and creating!</p>
                     <a href='https://www.linkedin.com/in/mohsenpasdar/' target={'_blank'}><LinkedInIcon /></a>
