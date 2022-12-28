@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'
-import { projectList } from '../helpers/projectList';
+import { projectList } from '../helpers/ProjectList';
 import GithubIcon from '@material-ui/icons/GitHub'
 import '../styles/ProjectDisplay.css'
 

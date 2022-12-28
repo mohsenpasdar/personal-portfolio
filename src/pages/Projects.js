@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from '../components/ProjectItem';
-import { projectList } from '../helpers/projectList';
+import { projectList } from '../helpers/ProjectList';
 import '../styles/Projects.css'
 
 const Projects = () => {
