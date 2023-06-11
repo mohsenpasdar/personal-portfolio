@@ -6,8 +6,16 @@ import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.jpg";
 import Proj7 from "../assets/proj7.JPG";
 import Proj8 from "../assets/proj8.JPG";
+import Proj9 from "../assets/proj9.JPG";
 
 export const projectList = [
+    {
+        name: "Food Order app",
+        image: Proj9,
+        skills: "React, State management, useContext, Firebase, JavaScript, HTML, CSS",
+        url: 'https://mohsen-food-order-app.onrender.com/',
+        github: 'https://github.com/mohsenpasdar/food-order-app'
+    },
     {
         name: "NodeJS chat app",
         image: Proj8,
